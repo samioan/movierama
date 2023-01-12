@@ -1,0 +1,12 @@
+ .textContainer {
+    display:flex;
+    margin-bottom:13px;
+ }
+
+ .runtime {
+    margin-right: 20px;
+ }
+
+ .releaseDate {
+    color: #f9ab00
+ }

@@ -1,0 +1,39 @@
+.movieButton {
+    padding: 6px 12px;
+    font-size: 0.875rem;
+    max-width: 264px;
+    min-width: 72px;
+    min-height: 48px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    background-color: transparent;
+    color: white;
+    opacity:0.7;    
+    transition: all 0.5s;
+    cursor: pointer;
+    border: none;
+}
+.movieButton:hover {
+    opacity:1;   
+}
+
+.activeMovieButton {
+    padding: 6px 12px;
+    font-size: 0.875rem;
+    max-width: 264px;
+    min-width: 72px;
+    min-height: 48px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    background-color: transparent;
+    color: white;
+    opacity:1;    
+    transition: all 0.5s;
+    cursor: pointer;
+    border: none;
+    border-bottom: solid 1px #f9ab00;
+}

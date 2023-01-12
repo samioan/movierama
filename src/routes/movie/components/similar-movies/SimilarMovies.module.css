@@ -1,0 +1,26 @@
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    padding: 24px;
+    max-width: 34%;
+    flex-basis: 34%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}
+
+.innerContainer {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.cardContainer {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+}

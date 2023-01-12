@@ -1,0 +1,15 @@
+.score {
+    top: 5%;
+    left: 8%;
+    color: #fff;
+    width: 30px;
+    border: 2px solid #f9ab00;
+    height: 30px;
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: rgba(26, 25, 31, 75%);
+}

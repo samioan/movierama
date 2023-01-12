@@ -1,0 +1,19 @@
+ .textContainer {
+    display:flex;
+    margin-bottom:13px;
+ }
+
+ .cast {
+    color: #f9ab00;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.5s;
+    margin-left: 5px;
+ }
+ .cast:hover {
+    opacity: 1
+ }
+ 
+.genreContainer {
+    display: flex
+}

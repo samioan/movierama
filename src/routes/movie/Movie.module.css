@@ -1,0 +1,48 @@
+.loadingContainer {
+    height: calc(100vh - 66px);
+    display: flex;
+    align-items: center;
+}
+
+.outerContainer {
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.innerContainer {
+    height: auto;
+    min-width: 100px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    color: white;
+    box-shadow: rgb(255 255 255 / 50%) 0px 39px 56px -36px inset, 
+    rgb(0 0 0 / 30%) 0px 1px 4px 0px inset,
+    rgb(0 0 0 / 30%) 0px -82px 68px -64px inset,
+    rgb(0 0 0 / 30%) 0px 98px 100px -48px inset, 
+    rgb(0 0 0 / 30%) 0px 4px 18px 0px inset, 
+    rgb(0 0 0 / 20%) 0px 1px 40px 0px inset, 
+    rgb(0 0 0 / 20%) 0px 1px 40px 0px inset;
+}
+
+.topContainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.bottomContainer { 
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bottomContainer {
+        flex-wrap: wrap;
+    }
+    .topContainer {
+        flex-wrap: wrap;
+    }
+}
+

@@ -1,0 +1,49 @@
+.buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1280px;
+    padding: 40px 24px 0 24px;
+    margin: auto;
+    gap: 16px;
+}
+
+.moviesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1280px;
+    padding: 40px 24px 0 24px;
+    margin: auto;
+}
+
+.cardContainer {
+    flex-grow: 0;
+    max-width: 16%;
+    flex-basis: 16%;
+}
+
+@media only screen and (min-width: 0px) {
+    .cardContainer {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+  }
+@media only screen and (min-width: 600px) {
+    .cardContainer {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+  }
+  @media only screen and (min-width: 900px) {
+    .cardContainer {
+        max-width: 32%;
+        flex-basis: 32%;
+    }
+  }
+@media only screen and (min-width: 1200px) {
+    .cardContainer {
+        max-width: 16%;
+        flex-basis: 16%;
+    }
+  }

@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:12px 0;
+}
+
+.dots {
+    position: relative;
+    left: -9999px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+    box-shadow: 9999px 0 0 -5px;
+    animation: dots 1.5s infinite linear;
+    animation-delay: 0.25s;
+  }
+  .dots::before, .dots::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+  }
+  .dots::before {
+    box-shadow: 9984px 0 0 -5px;
+    animation: dots-before 1.5s infinite linear;
+    animation-delay: 0s;
+  }
+  .dots::after {
+    box-shadow: 10014px 0 0 -5px;
+    animation: dots-after 1.5s infinite linear;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes dots-before {
+    0% {
+      box-shadow: 9984px 0 0 -5px;
+    }
+    30% {
+      box-shadow: 9984px 0 0 2px;
+    }
+    60%, 100% {
+      box-shadow: 9984px 0 0 -5px;
+    }
+  }
+  @keyframes dots {
+    0% {
+      box-shadow: 9999px 0 0 -5px;
+    }
+    30% {
+      box-shadow: 9999px 0 0 2px;
+    }
+    60%, 100% {
+      box-shadow: 9999px 0 0 -5px;
+    }
+  }
+  @keyframes dots-after {
+    0% {
+      box-shadow: 10014px 0 0 -5px;
+    }
+    30% {
+      box-shadow: 10014px 0 0 2px;
+    }
+    60%, 100% {
+      box-shadow: 10014px 0 0 -5px;
+    }
+  }

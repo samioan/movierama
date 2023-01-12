@@ -1,0 +1,20 @@
+.content {
+    font-size: 12px;
+    word-break:break-word;
+}
+
+.authorContainer{ 
+    display:flex;
+    margin-top:9px;
+}
+
+.createdAt {
+    color: #a67c7c;
+    font-size: 13px;
+    margin-right:12px;
+}
+
+.author {
+    color: #a67c7c;
+    font-size: 13px;
+}

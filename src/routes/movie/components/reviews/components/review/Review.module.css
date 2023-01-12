@@ -1,0 +1,21 @@
+.reviewContainer {
+    border: 1px solid #262424;
+    display: flex;
+    padding: 15px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.outerContainer {
+    width: 100%;
+}
+
+.innerContainer {
+    display: flex;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

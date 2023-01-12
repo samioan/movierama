@@ -1,0 +1,15 @@
+.card {
+    padding: 12px;
+}
+
+.imageContainer {
+    position: relative;
+    overflow: hidden;
+}
+.imageContainer:hover > div:nth-child(1) {
+    transform: scale(1.1);
+}
+.imageContainer:hover > div:nth-child(2) {
+    opacity:1
+}
+

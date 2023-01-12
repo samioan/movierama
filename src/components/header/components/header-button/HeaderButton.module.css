@@ -1,0 +1,16 @@
+.link {
+    transition: all 0.5s;
+    color: white;
+    text-decoration: none;
+    padding:12px
+}
+.link:hover {
+    color: #f9ab00;
+}
+
+.activeLink {
+    transition: all 0.5s;
+    color: #f9ab00;
+    text-decoration: none;
+    padding:12px
+}

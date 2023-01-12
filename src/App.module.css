@@ -1,0 +1,5 @@
+.loadingContainer {
+        display: flex;
+        height: calc(100vh - 100px);
+        align-items: center;
+}
