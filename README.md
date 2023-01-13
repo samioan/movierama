@@ -1,13 +1,21 @@
 # MovieRama
 
-A movie catalog, based on the MDB data source, with infinite scrolling and multiple routes.
-The project contains three main flows:
+## Multi-page movie catalog app
 
-- ## Home
-  The landing page contains the top rated, upcoming and now playing movies.
-- ## Search
-  Search for your favourite movie here!
-- ## Movie
-  Displays the selected movie's details, reviews and similar movies.
+## Features
 
-This project was created using React.
+- Landing page with the top rated, upcoming and now playing movies.
+- Search functionality for finding specific movies.
+- Movie details displayed on a dynamic route.
+
+## Installing
+
+- Run `yarn` or `npm install` in the project folder
+- Run `npm start` to run in developer mode and it will open in the browser automagically
+
+## Building
+
+- Run `npm run build`
+- The built project files will be located in the `build` folder
+
+## Built with React
